@@ -1,0 +1,174 @@
+body{
+    height: 100vh;
+    background-image: url(land.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.header{
+    
+     color:white;
+     font-weight: bolder;
+     text-align: center;
+     position: relative;
+    
+ }
+ header a{
+     text-decoration: none;
+     padding: 40px;
+     color: white;
+ }
+ header a:hover{
+    color: pink;
+     text-decoration: dashed;
+ }
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.5);
+    z-index: -1;
+}
+.background{
+    width: 600px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 28%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    word-spacing: 5px;
+    
+    color: antiquewhite ;
+}
+.background h1{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+span{
+    color: darkgoldenrod;
+    font-size: 50px;
+    text-shadow: 0 10px 30px white;
+}
+.background p{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: orange;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 43%;
+    box-shadow: 0 0 10px yellow;
+}
+.btn:hover{
+    background-color: wheat;
+}
+.icons{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    }
+    .footer p{
+    text-align: center;
+    color: black;
+    
+    }
+    .footer{
+    background-color:gainsboro;
+    padding: 20px;
+    text-align: center;
+    
+    }
+    .icons{
+        display: flex;
+        transition: 1.5s;
+    }
+    .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    }
+    .fa a{
+    align-items: center;
+    padding-left: 30px;
+    }
+    .fa:hover {
+    background-color: black;
+    }
+    .fa-facebook {
+    background: #3B5998;
+    color: white;
+    }
+    .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    }
+    .fa-google {
+    background: #dd4b39;
+    color: white;
+    }
+    .fa-linkedin {
+    background: #007bb5;
+    color: white; 
+   }
+    .fa-youtube {
+    background: #bb0000;
+    color: white;
+    }
+    .fa-instagram {
+     background: rgba(255, 192, 218, 0.936);
+     color: white;
+    }
+    
+
+
+    @media (max-width: 480px) {
+        header a {
+            padding: 10px;
+        }
+    
+        .background {
+            width: 90%;
+            height: auto;
+            padding: 20px;
+            margin: 10% auto;
+        }
+    
+        .background h1 {
+            font-size: 1.5em;
+        }
+    
+        .background p {
+            font-size: 1em;
+        }
+    
+        .btn {
+            font-size: 1em;
+            padding: 5px 10px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    
+        .fa {
+            font-size: 12px;
+            width: 25px;
+        }
+    }
+
+
+    
